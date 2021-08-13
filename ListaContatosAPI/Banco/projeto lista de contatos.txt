@@ -1,0 +1,15 @@
+Para configurar o banco:
+
+configurar o mysql com os seguintes valores :
+server=localhost;
+database=Lista_Contatos;
+user=root;
+password=
+
+rodar o comando update-database no package manager console do Visual Studio, que o mesmo criará o banco e a tabela utilizada no projeto.
+
+Nuget usados:
+Microsoft.EntityFrameworkCore -v 5.0.5
+Microsoft.EntityFrameworkCore.Tools -v 5.0.5
+MySql.EntityFrameworkCore -v 5.0.3
+Swashbuckle.AspNetCore -v 5.6.3
